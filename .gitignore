@@ -1,11 +1,16 @@
 # Ignore local class materials
 class_materials/
+
 # Ignore Python cache files
 __pycache__/
 *.pyc
+
 # Ignore environment files
 .env
 .venv/
-data/
+.venv/**
+
+#OS/editor noise
 .DS_Store
 .ipynb_checkpoints/
+.vscode/
